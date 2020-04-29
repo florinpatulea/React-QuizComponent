@@ -19,7 +19,7 @@ class Quiz extends Component {
     });
   }
   handleResetClick() {
-    this.setState({ quiz_question: 1 });
+    this.setState({ quiz_position: 1 });
   }
 
   render() {
